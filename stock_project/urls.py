@@ -16,7 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-urlpatterns = [  
+urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/', include('categories.urls')),
+    path('api/v1/categories/', include('categories.urls')),
+    path('api/v1/suppliers/', include('suppliers.urls')),
+
 ]

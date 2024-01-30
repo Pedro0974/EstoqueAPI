@@ -1,0 +1,30 @@
+# Arquivos de byte Python
+*.pyc
+__pycache__/
+
+# Ambiente virtual
+venv/
+env/
+
+# Arquivos de log
+*.log
+
+# Arquivos de banco de dados
+*.sqlite3
+*.db
+
+# Arquivos de configuração locais
+local_settings.py
+
+# Arquivos gerados pelo IDE
+.idea/
+
+# Arquivos de mídia carregados
+media/
+
+# Arquivos estáticos coletados
+staticfiles/
+
+# Arquivos de configuração específicos do sistema
+.DS_Store
+Thumbs.db

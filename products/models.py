@@ -36,12 +36,16 @@ class Product(DefaultInheritance):
     price = models.DecimalField(
         'Price',
         decimal_places=2,
-        max_digits=8
+        max_digits=8,
+        blank=True,
+        null=True
     )
     average_price = models.DecimalField(
         'Average Price',
         decimal_places=2,
-        max_digits=8
+        max_digits=8,
+        blank=True,
+        null=True
     )
 
     class Meta:

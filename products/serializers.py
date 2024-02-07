@@ -5,8 +5,8 @@ from suppliers.serializers import SupplierSerializer
 
 
 class ProductSerializer(serializers.ModelSerializer):
-    category = CategorySerializer()
-    supplier = SupplierSerializer()
+    category = CategorySerializer(required=False)
+    supplier = SupplierSerializer(required=False)
 
     class Meta:
         model = Product

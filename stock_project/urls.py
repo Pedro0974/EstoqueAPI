@@ -20,6 +20,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/categories/', include('categories.urls')),
     path('api/v1/suppliers/', include('suppliers.urls')),
+    path('api/v1/products/', include('products.urls')),
+    path('api/v1/stock/', include('stock.urls')),
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.authtoken')),
 
